@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B3C9A27139D4E0F0042676B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3C9A26139D4E0F0042676B /* CoreVideo.framework */; };
+		1B3C9A2A139D4E150042676B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3C9A29139D4E150042676B /* AVFoundation.framework */; };
+		1B3C9A2C139D4E1C0042676B /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3C9A2B139D4E1C0042676B /* CoreImage.framework */; };
+		1B3C9A2E139D4E350042676B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3C9A2D139D4E350042676B /* AssetsLibrary.framework */; };
+		1B3C9A30139D4E5F0042676B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3C9A2F139D4E5F0042676B /* CoreMedia.framework */; };
+		1B3C9A32139D4E740042676B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3C9A31139D4E740042676B /* QuartzCore.framework */; };
+		1B3C9A34139D4EAA0042676B /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B3C9A33139D4EAA0042676B /* ImageIO.framework */; };
+		1B867FDD139D4AD300AD6B47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B867FDC139D4AD300AD6B47 /* UIKit.framework */; };
+		1B867FDF139D4AD300AD6B47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B867FDE139D4AD300AD6B47 /* Foundation.framework */; };
+		1B867FE1139D4AD300AD6B47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B867FE0139D4AD300AD6B47 /* CoreGraphics.framework */; };
+		B332345B15E58BBF00CF255F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B332345A15E58BBF00CF255F /* icon.png */; };
+		B332345D15E58BE200CF255F /* icon 2.png in Resources */ = {isa = PBXBuildFile; fileRef = B332345C15E58BE200CF255F /* icon 2.png */; };
+		B3BA58D515E58686009E5AEE /* shades.png in Resources */ = {isa = PBXBuildFile; fileRef = B3BA589E15E546F4009E5AEE /* shades.png */; };
+		B3BA58DB15E586A2009E5AEE /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3BA58CF15E58685009E5AEE /* MainStoryboard_iPad.storyboard */; };
+		B3BA58DC15E586A2009E5AEE /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3BA58D115E58686009E5AEE /* MainStoryboard_iPhone.storyboard */; };
+		B3BA58E315E586BD009E5AEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BA58DE15E586BD009E5AEE /* main.m */; };
+		B3BA58E415E586BD009E5AEE /* StacheCamAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BA58E015E586BD009E5AEE /* StacheCamAppDelegate.m */; };
+		B3BA58E515E586BD009E5AEE /* StacheCamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BA58E215E586BD009E5AEE /* StacheCamViewController.m */; };
+		B3BA58ED15E586CB009E5AEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3BA58E815E586CB009E5AEE /* InfoPlist.strings */; };
+		B3BA58EE15E586CB009E5AEE /* shades.png in Resources */ = {isa = PBXBuildFile; fileRef = B3BA58EA15E586CB009E5AEE /* shades.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B3C9A26139D4E0F0042676B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		1B3C9A29139D4E150042676B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1B3C9A2B139D4E1C0042676B /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		1B3C9A2D139D4E350042676B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		1B3C9A2F139D4E5F0042676B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		1B3C9A31139D4E740042676B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1B3C9A33139D4EAA0042676B /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		1B867FD8139D4AD300AD6B47 /* FramesCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FramesCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B867FDC139D4AD300AD6B47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1B867FDE139D4AD300AD6B47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B867FE0139D4AD300AD6B47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B332345A15E58BBF00CF255F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		B332345C15E58BE200CF255F /* icon 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon 2.png"; sourceTree = "<group>"; };
+		B3BA58D015E58686009E5AEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = FramesCam/en.lproj/MainStoryboard_iPad.storyboard; sourceTree = SOURCE_ROOT; };
+		B3BA58D215E58686009E5AEE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = FramesCam/en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = SOURCE_ROOT; };
+		B3BA58D815E586A2009E5AEE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = FramesCam/Info.plist; sourceTree = SOURCE_ROOT; };
+		B3BA58D915E586A2009E5AEE /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = FramesCam/Prefix.pch; sourceTree = SOURCE_ROOT; };
+		B3BA58DE15E586BD009E5AEE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FramesCam/main.m; sourceTree = SOURCE_ROOT; };
+		B3BA58DF15E586BD009E5AEE /* StacheCamAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StacheCamAppDelegate.h; path = FramesCam/StacheCamAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		B3BA58E015E586BD009E5AEE /* StacheCamAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StacheCamAppDelegate.m; path = FramesCam/StacheCamAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		B3BA58E115E586BD009E5AEE /* StacheCamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StacheCamViewController.h; path = FramesCam/StacheCamViewController.h; sourceTree = SOURCE_ROOT; };
+		B3BA58E215E586BD009E5AEE /* StacheCamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StacheCamViewController.m; path = FramesCam/StacheCamViewController.m; sourceTree = SOURCE_ROOT; };
+		B3BA58E915E586CB009E5AEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = FramesCam/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		B3BA58EB15E586CB009E5AEE /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = FramesCam/en.lproj/shades.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B867FD5139D4AD300AD6B47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B3C9A34139D4EAA0042676B /* ImageIO.framework in Frameworks */,
+				1B3C9A32139D4E740042676B /* QuartzCore.framework in Frameworks */,
+				1B3C9A30139D4E5F0042676B /* CoreMedia.framework in Frameworks */,
+				1B867FE1139D4AD300AD6B47 /* CoreGraphics.framework in Frameworks */,
+				1B3C9A2E139D4E350042676B /* AssetsLibrary.framework in Frameworks */,
+				1B3C9A2C139D4E1C0042676B /* CoreImage.framework in Frameworks */,
+				1B3C9A2A139D4E150042676B /* AVFoundation.framework in Frameworks */,
+				1B3C9A27139D4E0F0042676B /* CoreVideo.framework in Frameworks */,
+				1B867FDD139D4AD300AD6B47 /* UIKit.framework in Frameworks */,
+				1B867FDF139D4AD300AD6B47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B867FCD139D4AD300AD6B47 = {
+			isa = PBXGroup;
+			children = (
+				B332345C15E58BE200CF255F /* icon 2.png */,
+				B332345A15E58BBF00CF255F /* icon.png */,
+				1B867FE2139D4AD300AD6B47 /* FramesCam */,
+				1B867FDB139D4AD300AD6B47 /* Frameworks */,
+				1B867FD9139D4AD300AD6B47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B867FD9139D4AD300AD6B47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B867FD8139D4AD300AD6B47 /* FramesCam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B867FDB139D4AD300AD6B47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B3C9A33139D4EAA0042676B /* ImageIO.framework */,
+				1B3C9A31139D4E740042676B /* QuartzCore.framework */,
+				1B3C9A2F139D4E5F0042676B /* CoreMedia.framework */,
+				1B3C9A2D139D4E350042676B /* AssetsLibrary.framework */,
+				1B3C9A2B139D4E1C0042676B /* CoreImage.framework */,
+				1B3C9A29139D4E150042676B /* AVFoundation.framework */,
+				1B3C9A26139D4E0F0042676B /* CoreVideo.framework */,
+				1B867FDC139D4AD300AD6B47 /* UIKit.framework */,
+				1B867FDE139D4AD300AD6B47 /* Foundation.framework */,
+				1B867FE0139D4AD300AD6B47 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B867FE2139D4AD300AD6B47 /* FramesCam */ = {
+			isa = PBXGroup;
+			children = (
+				B3BA58DF15E586BD009E5AEE /* StacheCamAppDelegate.h */,
+				B3BA58E015E586BD009E5AEE /* StacheCamAppDelegate.m */,
+				B3BA58E115E586BD009E5AEE /* StacheCamViewController.h */,
+				B3BA58E215E586BD009E5AEE /* StacheCamViewController.m */,
+				1B867FE3139D4AD300AD6B47 /* Supporting Files */,
+			);
+			name = FramesCam;
+			path = StacheCam;
+			sourceTree = "<group>";
+		};
+		1B867FE3139D4AD300AD6B47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3BA58DE15E586BD009E5AEE /* main.m */,
+				B3BA58E815E586CB009E5AEE /* InfoPlist.strings */,
+				B3BA58EA15E586CB009E5AEE /* shades.png */,
+				B3BA58D815E586A2009E5AEE /* Info.plist */,
+				B3BA58D915E586A2009E5AEE /* Prefix.pch */,
+				B3BA58CF15E58685009E5AEE /* MainStoryboard_iPad.storyboard */,
+				B3BA58D115E58686009E5AEE /* MainStoryboard_iPhone.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B867FD7139D4AD300AD6B47 /* FramesCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B867FFA139D4AD300AD6B47 /* Build configuration list for PBXNativeTarget "FramesCam" */;
+			buildPhases = (
+				1B867FD4139D4AD300AD6B47 /* Sources */,
+				1B867FD5139D4AD300AD6B47 /* Frameworks */,
+				1B867FD6139D4AD300AD6B47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FramesCam;
+			productName = StacheCam;
+			productReference = 1B867FD8139D4AD300AD6B47 /* FramesCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B867FCF139D4AD300AD6B47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 1B867FD2139D4AD300AD6B47 /* Build configuration list for PBXProject "FramesCam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B867FCD139D4AD300AD6B47;
+			productRefGroup = 1B867FD9139D4AD300AD6B47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B867FD7139D4AD300AD6B47 /* FramesCam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B867FD6139D4AD300AD6B47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3BA58D515E58686009E5AEE /* shades.png in Resources */,
+				B3BA58DB15E586A2009E5AEE /* MainStoryboard_iPad.storyboard in Resources */,
+				B3BA58DC15E586A2009E5AEE /* MainStoryboard_iPhone.storyboard in Resources */,
+				B3BA58ED15E586CB009E5AEE /* InfoPlist.strings in Resources */,
+				B3BA58EE15E586CB009E5AEE /* shades.png in Resources */,
+				B332345B15E58BBF00CF255F /* icon.png in Resources */,
+				B332345D15E58BE200CF255F /* icon 2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B867FD4139D4AD300AD6B47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3BA58E315E586BD009E5AEE /* main.m in Sources */,
+				B3BA58E415E586BD009E5AEE /* StacheCamAppDelegate.m in Sources */,
+				B3BA58E515E586BD009E5AEE /* StacheCamViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3BA589E15E546F4009E5AEE /* shades.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+			);
+			name = shades.png;
+			path = /Users/mlong/Desktop/StacheCam_iOS5/StacheCam;
+			sourceTree = "<absolute>";
+		};
+		B3BA58CF15E58685009E5AEE /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3BA58D015E58686009E5AEE /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B3BA58D115E58686009E5AEE /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3BA58D215E58686009E5AEE /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B3BA58E815E586CB009E5AEE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3BA58E915E586CB009E5AEE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B3BA58EA15E586CB009E5AEE /* shades.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3BA58EB15E586CB009E5AEE /* en */,
+			);
+			name = shades.png;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B867FF8139D4AD300AD6B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B867FF9139D4AD300AD6B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B867FFB139D4AD300AD6B47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ADDITIONAL_SDKS[arch=*]" = "";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FramesCam/Prefix.pch;
+				INFOPLIST_FILE = FramesCam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = FramesCam;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1B867FFC139D4AD300AD6B47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FramesCam/Prefix.pch;
+				INFOPLIST_FILE = FramesCam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = FramesCam;
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B867FD2139D4AD300AD6B47 /* Build configuration list for PBXProject "FramesCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B867FF8139D4AD300AD6B47 /* Debug */,
+				1B867FF9139D4AD300AD6B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B867FFA139D4AD300AD6B47 /* Build configuration list for PBXNativeTarget "FramesCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B867FFB139D4AD300AD6B47 /* Debug */,
+				1B867FFC139D4AD300AD6B47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B867FCF139D4AD300AD6B47 /* Project object */;
+}
